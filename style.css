@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width: 100%;
+    min-height: 360rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(204, 204, 204);
+}
+
+header{
+    height: 7rem;
+    width: 100%;
+    background-color: #ffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content{
+    width: 64rem;
+
+    font-family: 'Roboto';
+    font-weight: bolder;
+    font-size: 2.8rem;
+}
+
+.card-section{
+    min-height: inherit;
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    width: 64rem;
+    min-height: 76rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header{
+    background-color: white;
+    height: 5rem;
+    font-size: 1.8rem;
+    font-family: 'Roboto';
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 1.2rem;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-date{
+    font-weight: 400;
+    color: rgb(170, 170, 170);
+}
+
+.card-text{
+    background: white;
+    padding: 3rem 2rem;
+}
+
+.card-text > p{
+    font-size: 1.8rem;
+
+    font-family: 'Roboto';
+}
+
+.card-img-section{
+    height: 63.8rem;
+    border-top: solid rgba(182, 182, 182, 0.295) 1px;
+    border-bottom: solid rgba(182, 182, 182, 0.295) 1px;
+}
+
+.card-img-section-1{
+    background: url("./img/cute-puppy.jpg") no-repeat white center;
+    background-size: cover;
+}
+.card-img-section-2{
+    background: url("./img/cute-kitten.jpg") no-repeat white center;
+    background-size: contain;
+}
+.card-img-section-3{
+    background: url("./img/computer-programming.jpg") no-repeat white center;
+    background-size: contain;
+}
+.card-img-section-4{
+    background: url("./img/italian-pizza.jpg") no-repeat white center;
+    background-size: contain;
+}
